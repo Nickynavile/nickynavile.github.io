@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Nicky Navile </title>
+  <title>Nicky Navile</title>
   <meta name="keywords" content="Nicky Navile's Portfolio Site.">
-  <meta name="Nicky Navile Graphic Design Portfolio Site.">
+  <meta name="description" content="Nicky Navile Graphic Design Portfolio Site.">
 
   <link rel="stylesheet" href="assets/fonts/flat-icon/flaticon.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -28,9 +28,8 @@
           <ul class="nav navbar-nav">
             <li><a href="#">HOME</a></li>
             <li><a href="#about">ABOUT</a></li>
-            <li><a href="#">SKILL</a></li> 
-            <li><a href="#">PORTFOLIO</a></li> 
-            <li><a href="#">TEAM</a></li> 
+            <li><a href="#skill">SKILL</a></li> 
+            <li><a href="#portfolio">PORTFOLIO</a></li>  
             <li><a href="https://graphicle.art/blog">BLOG</a></li> 
             <li><a href="#contact">CONTACT</a></li> 
           </ul>
@@ -204,13 +203,6 @@
         <h2 class="page-section__title">MY PORTFOLIO</h2>
         <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
         <p class="page-section__paragraph">Checkout my recent works delivered to Happy clients. </p>
-        <div class="portfolio__button-group">
-          <a class="button button--default" data-filter="all" href="#">ALL</a>
-          <a class="button button--default" data-filter=".category-a" href="#">DEVELOPMENT</a>
-          <a class="button button--default" data-filter=".category-b" href="#">DESIGN</a>
-          <a class="button button--default" data-filter=".category-c" href="#">HTML</a>
-          <a class="button button--default" data-filter=".category-d" href="#">JAVA</a>
-        </div>
         <div class="row gutters-40">
           <div class="col-md-4">
             <div class="portfolio__single-section mix category-a category-b category-c" data-order="1">
@@ -425,14 +417,5 @@
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
   <script src="js/mixitup.js"></script>
 
- <script>
-    $('a').click(function(e)
-      {
-        e.preventDefault();
-      });
-
-    // calling mixitup
-    var mixer = mixitup(".portfolio");
-  </script>
 </body>
 </html>  
